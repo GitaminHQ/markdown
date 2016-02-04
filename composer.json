@@ -1,0 +1,43 @@
+{
+    "name": "gitaminhq/markdown",
+    "description": "A markdown wrapper for gitamin",
+    "keywords": ["markdown", "common mark", "gitamin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gitamin",
+            "email": "support@gitamin.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.2.*",
+        "illuminate/support": "5.2.*",
+        "illuminate/view": "5.2.*",
+        "league/commonmark": "^0.12"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GitaminHQ\\Markdown\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GitaminHQ\\Tests\\Markdown\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.3-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
